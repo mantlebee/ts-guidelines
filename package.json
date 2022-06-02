@@ -1,0 +1,30 @@
+{
+  "name": "ts-guideline",
+  "version": "1.0.0",
+  "description": "Guidelines and standards on how to write and organize TypeScript projects.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "build": "docsify generate docs",
+    "serve": "docsify serve docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mantlebee/ts-guideline.git"
+  },
+  "keywords": [
+    "typescript",
+    "guideline"
+  ],
+  "author": "MantleBee",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mantlebee/ts-guideline/issues"
+  },
+  "homepage": "https://github.com/mantlebee/ts-guideline#readme",
+  "devDependencies": {
+    "docsify-cli": "4.4.3"
+  }
+}
